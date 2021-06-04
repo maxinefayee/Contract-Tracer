@@ -36,6 +36,11 @@ namespace Contact_Tracer
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.FirstNameTitle = new System.Windows.Forms.Label();
+            this.LastNameTitle = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.AgeTitle = new System.Windows.Forms.Label();
+            this.SexTitle = new System.Windows.Forms.Label();
+            this.AddressTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
@@ -75,9 +80,9 @@ namespace Contact_Tracer
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(473, 112);
+            this.textBox3.Location = new System.Drawing.Point(453, 112);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 23);
+            this.textBox3.Size = new System.Drawing.Size(83, 23);
             this.textBox3.TabIndex = 4;
             // 
             // textBox4
@@ -97,11 +102,63 @@ namespace Contact_Tracer
             this.FirstNameTitle.TabIndex = 6;
             this.FirstNameTitle.Text = "First Name";
             // 
+            // LastNameTitle
+            // 
+            this.LastNameTitle.AutoSize = true;
+            this.LastNameTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LastNameTitle.Location = new System.Drawing.Point(251, 94);
+            this.LastNameTitle.Name = "LastNameTitle";
+            this.LastNameTitle.Size = new System.Drawing.Size(74, 16);
+            this.LastNameTitle.TabIndex = 7;
+            this.LastNameTitle.Text = "Last Name";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(553, 112);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(77, 23);
+            this.textBox5.TabIndex = 8;
+            // 
+            // AgeTitle
+            // 
+            this.AgeTitle.AutoSize = true;
+            this.AgeTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.AgeTitle.Location = new System.Drawing.Point(453, 93);
+            this.AgeTitle.Name = "AgeTitle";
+            this.AgeTitle.Size = new System.Drawing.Size(32, 16);
+            this.AgeTitle.TabIndex = 9;
+            this.AgeTitle.Text = "Age";
+            // 
+            // SexTitle
+            // 
+            this.SexTitle.AutoSize = true;
+            this.SexTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SexTitle.Location = new System.Drawing.Point(553, 93);
+            this.SexTitle.Name = "SexTitle";
+            this.SexTitle.Size = new System.Drawing.Size(32, 16);
+            this.SexTitle.TabIndex = 10;
+            this.SexTitle.Text = "Sex";
+            // 
+            // AddressTitle
+            // 
+            this.AddressTitle.AutoSize = true;
+            this.AddressTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.AddressTitle.Location = new System.Drawing.Point(65, 152);
+            this.AddressTitle.Name = "AddressTitle";
+            this.AddressTitle.Size = new System.Drawing.Size(57, 16);
+            this.AddressTitle.TabIndex = 11;
+            this.AddressTitle.Text = "Address";
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 450);
+            this.Controls.Add(this.AddressTitle);
+            this.Controls.Add(this.SexTitle);
+            this.Controls.Add(this.AgeTitle);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.LastNameTitle);
             this.Controls.Add(this.FirstNameTitle);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -125,6 +182,11 @@ namespace Contact_Tracer
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label FirstNameTitle;
+        private System.Windows.Forms.Label LastNameTitle;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label AgeTitle;
+        private System.Windows.Forms.Label SexTitle;
+        private System.Windows.Forms.Label AddressTitle;
     }
 }
 
