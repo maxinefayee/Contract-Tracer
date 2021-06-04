@@ -55,6 +55,7 @@ namespace Contact_Tracer
             this.Header1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.SexExample = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
@@ -301,12 +302,23 @@ namespace Contact_Tracer
             this.label2.Text = "we will be able to observe the people who have entered the facility if there are " +
     "any case occurs.";
             // 
+            // SexExample
+            // 
+            this.SexExample.AutoSize = true;
+            this.SexExample.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.SexExample.Location = new System.Drawing.Point(552, 235);
+            this.SexExample.Name = "SexExample";
+            this.SexExample.Size = new System.Drawing.Size(39, 16);
+            this.SexExample.TabIndex = 28;
+            this.SexExample.Text = "F or M";
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(699, 608);
+            this.Controls.Add(this.SexExample);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Header1);
@@ -369,6 +381,7 @@ namespace Contact_Tracer
         private System.Windows.Forms.Label Header1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label SexExample;
     }
 }
 

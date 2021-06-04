@@ -1,8 +1,8 @@
-First Name:maxine
-Last Name:bella
+First Name:Maxine
+Last Name:Bella
 Age:19
-Sex:f
-Email:maxine
-Address:123
-Cellphone Number:123
-Telephone Number:123
+Sex:F
+Email:maxinebella02@gmail.com
+Address:Barrio Road St. Brgy. Tayuman Binangonan, Rizal
+Cellphone Number:09613202198
+Telephone Number:N/A

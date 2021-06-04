@@ -29,7 +29,7 @@ namespace Contact_Tracer
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.ShowData = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Header1 = new System.Windows.Forms.Label();
@@ -38,13 +38,13 @@ namespace Contact_Tracer
             this.ShowButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // ShowData
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(25, 155);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(646, 401);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.ShowData.Location = new System.Drawing.Point(25, 155);
+            this.ShowData.Name = "ShowData";
+            this.ShowData.Size = new System.Drawing.Size(646, 401);
+            this.ShowData.TabIndex = 0;
+            this.ShowData.Text = "";
             // 
             // label2
             // 
@@ -111,6 +111,7 @@ namespace Contact_Tracer
             this.ShowButton.TabIndex = 33;
             this.ShowButton.Text = "SHOW DATA";
             this.ShowButton.UseVisualStyleBackColor = false;
+            this.ShowButton.Click += new System.EventHandler(this.ShowButton_Click);
             // 
             // Form2
             // 
@@ -124,7 +125,7 @@ namespace Contact_Tracer
             this.Controls.Add(this.Header1);
             this.Controls.Add(this.PUPTitle);
             this.Controls.Add(this.Title);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.ShowData);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -134,7 +135,7 @@ namespace Contact_Tracer
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox ShowData;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Header1;
