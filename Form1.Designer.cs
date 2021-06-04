@@ -34,13 +34,22 @@ namespace Contact_Tracer
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.FirstNameTitle = new System.Windows.Forms.Label();
             this.LastNameTitle = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.AgeTitle = new System.Windows.Forms.Label();
             this.SexTitle = new System.Windows.Forms.Label();
-            this.AddressTitle = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.CellphoneTitle = new System.Windows.Forms.Label();
+            this.TelephoneTitle = new System.Windows.Forms.Label();
+            this.NameLAbel = new System.Windows.Forms.Label();
+            this.EmailLabel = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.EmailExample = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.AddressLAbel = new System.Windows.Forms.Label();
+            this.AddressExmaple = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
@@ -73,7 +82,7 @@ namespace Contact_Tracer
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(251, 112);
+            this.textBox2.Location = new System.Drawing.Point(249, 112);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(157, 23);
             this.textBox2.TabIndex = 3;
@@ -85,30 +94,23 @@ namespace Contact_Tracer
             this.textBox3.Size = new System.Drawing.Size(83, 23);
             this.textBox3.TabIndex = 4;
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(65, 171);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(565, 23);
-            this.textBox4.TabIndex = 5;
-            // 
             // FirstNameTitle
             // 
             this.FirstNameTitle.AutoSize = true;
-            this.FirstNameTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.FirstNameTitle.Location = new System.Drawing.Point(65, 94);
+            this.FirstNameTitle.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.FirstNameTitle.Location = new System.Drawing.Point(65, 138);
             this.FirstNameTitle.Name = "FirstNameTitle";
-            this.FirstNameTitle.Size = new System.Drawing.Size(75, 16);
+            this.FirstNameTitle.Size = new System.Drawing.Size(60, 16);
             this.FirstNameTitle.TabIndex = 6;
             this.FirstNameTitle.Text = "First Name";
             // 
             // LastNameTitle
             // 
             this.LastNameTitle.AutoSize = true;
-            this.LastNameTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LastNameTitle.Location = new System.Drawing.Point(251, 94);
+            this.LastNameTitle.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.LastNameTitle.Location = new System.Drawing.Point(249, 138);
             this.LastNameTitle.Name = "LastNameTitle";
-            this.LastNameTitle.Size = new System.Drawing.Size(74, 16);
+            this.LastNameTitle.Size = new System.Drawing.Size(59, 16);
             this.LastNameTitle.TabIndex = 7;
             this.LastNameTitle.Text = "Last Name";
             // 
@@ -139,22 +141,119 @@ namespace Contact_Tracer
             this.SexTitle.TabIndex = 10;
             this.SexTitle.Text = "Sex";
             // 
-            // AddressTitle
+            // textBox6
             // 
-            this.AddressTitle.AutoSize = true;
-            this.AddressTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.AddressTitle.Location = new System.Drawing.Point(65, 152);
-            this.AddressTitle.Name = "AddressTitle";
-            this.AddressTitle.Size = new System.Drawing.Size(57, 16);
-            this.AddressTitle.TabIndex = 11;
-            this.AddressTitle.Text = "Address";
+            this.textBox6.Location = new System.Drawing.Point(107, 396);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(157, 23);
+            this.textBox6.TabIndex = 12;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(423, 396);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(157, 23);
+            this.textBox7.TabIndex = 13;
+            // 
+            // CellphoneTitle
+            // 
+            this.CellphoneTitle.AutoSize = true;
+            this.CellphoneTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.CellphoneTitle.Location = new System.Drawing.Point(107, 377);
+            this.CellphoneTitle.Name = "CellphoneTitle";
+            this.CellphoneTitle.Size = new System.Drawing.Size(126, 16);
+            this.CellphoneTitle.TabIndex = 14;
+            this.CellphoneTitle.Text = "Cellphone Number";
+            // 
+            // TelephoneTitle
+            // 
+            this.TelephoneTitle.AutoSize = true;
+            this.TelephoneTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.TelephoneTitle.Location = new System.Drawing.Point(423, 377);
+            this.TelephoneTitle.Name = "TelephoneTitle";
+            this.TelephoneTitle.Size = new System.Drawing.Size(128, 16);
+            this.TelephoneTitle.TabIndex = 15;
+            this.TelephoneTitle.Text = "Telephone Number";
+            // 
+            // NameLAbel
+            // 
+            this.NameLAbel.AutoSize = true;
+            this.NameLAbel.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NameLAbel.Location = new System.Drawing.Point(65, 80);
+            this.NameLAbel.Name = "NameLAbel";
+            this.NameLAbel.Size = new System.Drawing.Size(77, 29);
+            this.NameLAbel.TabIndex = 16;
+            this.NameLAbel.Text = "Name";
+            // 
+            // EmailLabel
+            // 
+            this.EmailLabel.AutoSize = true;
+            this.EmailLabel.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.EmailLabel.Location = new System.Drawing.Point(65, 176);
+            this.EmailLabel.Name = "EmailLabel";
+            this.EmailLabel.Size = new System.Drawing.Size(77, 29);
+            this.EmailLabel.TabIndex = 17;
+            this.EmailLabel.Text = "Email";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(65, 208);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(565, 23);
+            this.textBox8.TabIndex = 18;
+            // 
+            // EmailExample
+            // 
+            this.EmailExample.AutoSize = true;
+            this.EmailExample.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.EmailExample.Location = new System.Drawing.Point(65, 234);
+            this.EmailExample.Name = "EmailExample";
+            this.EmailExample.Size = new System.Drawing.Size(106, 16);
+            this.EmailExample.TabIndex = 19;
+            this.EmailExample.Text = "example@gmail.com";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(65, 307);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(565, 23);
+            this.textBox4.TabIndex = 5;
+            // 
+            // AddressLAbel
+            // 
+            this.AddressLAbel.AutoSize = true;
+            this.AddressLAbel.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.AddressLAbel.Location = new System.Drawing.Point(65, 275);
+            this.AddressLAbel.Name = "AddressLAbel";
+            this.AddressLAbel.Size = new System.Drawing.Size(108, 29);
+            this.AddressLAbel.TabIndex = 20;
+            this.AddressLAbel.Text = "Address";
+            // 
+            // AddressExmaple
+            // 
+            this.AddressExmaple.AutoSize = true;
+            this.AddressExmaple.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.AddressExmaple.Location = new System.Drawing.Point(65, 333);
+            this.AddressExmaple.Name = "AddressExmaple";
+            this.AddressExmaple.Size = new System.Drawing.Size(282, 16);
+            this.AddressExmaple.TabIndex = 21;
+            this.AddressExmaple.Text = "House Number, Street Name, City, Province, Postal Code";
             // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 450);
-            this.Controls.Add(this.AddressTitle);
+            this.Controls.Add(this.AddressExmaple);
+            this.Controls.Add(this.AddressLAbel);
+            this.Controls.Add(this.EmailExample);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.EmailLabel);
+            this.Controls.Add(this.NameLAbel);
+            this.Controls.Add(this.TelephoneTitle);
+            this.Controls.Add(this.CellphoneTitle);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.SexTitle);
             this.Controls.Add(this.AgeTitle);
             this.Controls.Add(this.textBox5);
@@ -180,13 +279,22 @@ namespace Contact_Tracer
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label FirstNameTitle;
         private System.Windows.Forms.Label LastNameTitle;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label AgeTitle;
         private System.Windows.Forms.Label SexTitle;
-        private System.Windows.Forms.Label AddressTitle;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label CellphoneTitle;
+        private System.Windows.Forms.Label TelephoneTitle;
+        private System.Windows.Forms.Label NameLAbel;
+        private System.Windows.Forms.Label EmailLabel;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label EmailExample;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label AddressLAbel;
+        private System.Windows.Forms.Label AddressExmaple;
     }
 }
 
