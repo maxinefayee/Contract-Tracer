@@ -45,32 +45,36 @@ namespace Contact_Tracer
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            StreamWriter CT = new StreamWriter("ContactTracerData.txt");
+            TextWriter CT = new StreamWriter(@"D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\ContactTracerData.txt");
 
-            CT.WriteLine(FirstNameTitle + ":" + FirstNameTB);
-            CT.WriteLine(LastNameTitle + ":" + LastNameTB);
-            CT.WriteLine(AgeTitle + ":" + AgeTB);
-            CT.WriteLine(SexTitle + ":" + SexTB);
-            CT.WriteLine(EmailLabel + ":" + EmailTB);
-            CT.WriteLine(AddressLAbel + ":" + AddressTB);
-            CT.WriteLine(CellphoneTitle + ":" + CellNoTB);
-            CT.WriteLine(TelephoneTitle + ":" + TelNoTB);
+            CT.WriteLine("First Name:" + FirstNameTB.Text);
+            CT.WriteLine("Last Name:" + LastNameTB.Text);
+            CT.WriteLine("Age:" + AgeTB.Text);
+            CT.WriteLine("Sex:" + SexTB.Text);
+            CT.WriteLine("Email:" + EmailTB.Text);
+            CT.WriteLine("Address:" + AddressTB.Text);
+            CT.WriteLine("Cellphone Number:" + CellNoTB.Text);
+            CT.WriteLine("Telephone Number:" + TelNoTB.Text);
+
+            CT.Close();
 
             MessageBox.Show("Would you like to view the gathered data?", "ATTENTION!", MessageBoxButtons.YesNo);
-
-            if(DialogResult == DialogResult.No)
             {
-                Application.Exit();
+                if (DialogResult == DialogResult.No)
+                {
+                    Application.Exit();
+                }
+                else if (DialogResult == DialogResult.Yes)
+                {
+                    this.Visible = false;
+                    Form2 F2 = new Form2();
+                    F2.Show();
+
+                
+                }
+
+
             }
-
-            if (DialogResult == DialogResult.Yes)
-            {
-                this.Visible = false;
-                Form2 F2 = new Form2();
-                F2.Show();
-
-            }
-
-        }   
+        }
     }
 }

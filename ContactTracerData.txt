@@ -1,0 +1,8 @@
+First Name:maxine
+Last Name:bella
+Age:19
+Sex:f
+Email:maxine
+Address:123
+Cellphone Number:123
+Telephone Number:123

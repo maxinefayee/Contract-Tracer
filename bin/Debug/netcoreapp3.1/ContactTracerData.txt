@@ -1,0 +1,8 @@
+System.Windows.Forms.Label, Text: First Name:System.Windows.Forms.TextBox, Text: fsd
+System.Windows.Forms.Label, Text: Last Name:System.Windows.Forms.TextBox, Text: fsf
+System.Windows.Forms.Label, Text: Age:System.Windows.Forms.TextBox, Text: fs
+System.Windows.Forms.Label, Text: Sex:System.Windows.Forms.TextBox, Text: sf
+System.Windows.Forms.Label, Text: Email:System.Windows.Forms.TextBox, Text: sf
+System.Windows.Forms.Label, Text: Address:System.Windows.Forms.TextBox, Text: fs
+System.Windows.Forms.Label, Text: Cellphone Number:System.Windows.Forms.TextBox, Text: fs
+System.Windows.Forms.Label, Text: Telephone Number:System.Windows.Forms.TextBox, Text: fs
