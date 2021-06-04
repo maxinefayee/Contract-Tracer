@@ -57,14 +57,14 @@ namespace Contact_Tracer
             CT.WriteLine("Telephone Number:" + TelNoTB.Text);
 
             CT.Close();
-
+       
             MessageBox.Show("Would you like to view the gathered data?", "ATTENTION!", MessageBoxButtons.YesNo);
             {
-                if (DialogResult == DialogResult.No)
+                if (MessageBox.Show("Would you like to view the gathered data?", "ATTENTION!", MessageBoxButtons.YesNo) == DialogResult.No)
                 {
                     Application.Exit();
                 }
-                else if (DialogResult == DialogResult.Yes)
+                if (MessageBox.Show("Would you like to view the gathered data?", "ATTENTION!", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     this.Visible = false;
                     Form2 F2 = new Form2();
