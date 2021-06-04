@@ -45,7 +45,7 @@ namespace Contact_Tracer
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            StreamWriter CT = new StreamWriter(Application.StartupPath + "ContactTracerData.txt");
+            StreamWriter CT = new StreamWriter("ContactTracerData.txt");
 
             CT.WriteLine(FirstNameTitle + ":" + FirstNameTB);
             CT.WriteLine(LastNameTitle + ":" + LastNameTB);
@@ -58,10 +58,19 @@ namespace Contact_Tracer
 
             MessageBox.Show("Would you like to view the gathered data?", "ATTENTION!", MessageBoxButtons.YesNo);
 
-            if(DialogResult == DialogResult.No);
+            if(DialogResult == DialogResult.No)
             {
                 Application.Exit();
             }
+
+            if (DialogResult == DialogResult.Yes)
+            {
+                this.Visible = false;
+                Form2 F2 = new Form2();
+                F2.Show();
+
+            }
+
         }   
     }
 }

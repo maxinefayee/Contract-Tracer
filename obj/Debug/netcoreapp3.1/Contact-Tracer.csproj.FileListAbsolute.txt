@@ -1,0 +1,17 @@
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\bin\Debug\netcoreapp3.1\Contact-Tracer.exe
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\bin\Debug\netcoreapp3.1\Contact-Tracer.deps.json
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\bin\Debug\netcoreapp3.1\Contact-Tracer.runtimeconfig.json
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\bin\Debug\netcoreapp3.1\Contact-Tracer.runtimeconfig.dev.json
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\bin\Debug\netcoreapp3.1\Contact-Tracer.dll
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\bin\Debug\netcoreapp3.1\Contact-Tracer.pdb
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.csprojAssemblyReference.cache
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact_Tracer.ContactTracingForm.resources
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact_Tracer.Form2.resources
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact_Tracer.Properties.Resources.resources
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.csproj.GenerateResource.cache
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.AssemblyInfoInputs.cache
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.AssemblyInfo.cs
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.csproj.CoreCompileInputs.cache
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.dll
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.pdb
+D:\COLLEGE FILES\ContactTracer\Contact-Tracer\Contact-Tracer\obj\Debug\netcoreapp3.1\Contact-Tracer.genruntimeconfig.cache
