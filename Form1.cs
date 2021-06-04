@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Contact_Tracer
 {
@@ -42,9 +43,18 @@ namespace Contact_Tracer
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SubmitButton_Click(object sender, EventArgs e)
         {
+            StreamWriter CT = new StreamWriter(Application.StartupPath + "ContactTracerData.txt");
 
-        }
+            CT.WriteLine(FirstNameTitle + ":" + FirstNameTB);
+            CT.WriteLine(LastNameTitle + ":" + LastNameTB);
+            CT.WriteLine(AgeTitle + ":" + AgeTB);
+            CT.WriteLine(SexTitle + ":" + SexTB);
+            CT.WriteLine(EmailLabel + ":" + EmailTB);
+            CT.WriteLine(AddressLAbel + ":" + AddressTB);
+            CT.WriteLine(CellphoneTitle + ":" + CellNoTB);
+            CT.WriteLine(TelephoneTitle + ":" + TelNoTB);
+        }   
     }
 }

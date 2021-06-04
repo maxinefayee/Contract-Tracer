@@ -266,7 +266,7 @@ namespace Contact_Tracer
             this.SubmitButton.TabIndex = 23;
             this.SubmitButton.Text = "SUBMIT";
             this.SubmitButton.UseVisualStyleBackColor = false;
-            this.SubmitButton.Click += new System.EventHandler(this.button1_Click);
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
             // Header1
             // 
