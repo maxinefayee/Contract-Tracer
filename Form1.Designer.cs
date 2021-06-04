@@ -55,10 +55,10 @@ namespace Contact_Tracer
             // Title
             // 
             this.Title.AutoSize = true;
-            this.Title.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Title.Location = new System.Drawing.Point(189, 34);
+            this.Title.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Title.Location = new System.Drawing.Point(187, 34);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(320, 36);
+            this.Title.Size = new System.Drawing.Size(349, 37);
             this.Title.TabIndex = 0;
             this.Title.Text = "Contact Tracing Form";
             // 
@@ -67,7 +67,7 @@ namespace Contact_Tracer
             this.PUPTitle.AutoSize = true;
             this.PUPTitle.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.PUPTitle.ForeColor = System.Drawing.Color.Maroon;
-            this.PUPTitle.Location = new System.Drawing.Point(222, 18);
+            this.PUPTitle.Location = new System.Drawing.Point(236, 18);
             this.PUPTitle.Name = "PUPTitle";
             this.PUPTitle.Size = new System.Drawing.Size(249, 16);
             this.PUPTitle.TabIndex = 1;
