@@ -31,13 +31,18 @@ namespace Contact_Tracer
         {
             this.Title = new System.Windows.Forms.Label();
             this.PUPTitle = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.FirstNameTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
             // 
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Title.Location = new System.Drawing.Point(186, 25);
+            this.Title.Location = new System.Drawing.Point(189, 34);
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(320, 36);
             this.Title.TabIndex = 0;
@@ -48,17 +53,60 @@ namespace Contact_Tracer
             this.PUPTitle.AutoSize = true;
             this.PUPTitle.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.PUPTitle.ForeColor = System.Drawing.Color.Maroon;
-            this.PUPTitle.Location = new System.Drawing.Point(222, 9);
+            this.PUPTitle.Location = new System.Drawing.Point(222, 18);
             this.PUPTitle.Name = "PUPTitle";
             this.PUPTitle.Size = new System.Drawing.Size(249, 16);
             this.PUPTitle.TabIndex = 1;
             this.PUPTitle.Text = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(65, 112);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(157, 23);
+            this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(251, 112);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(157, 23);
+            this.textBox2.TabIndex = 3;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(473, 112);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(157, 23);
+            this.textBox3.TabIndex = 4;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(65, 171);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(565, 23);
+            this.textBox4.TabIndex = 5;
+            // 
+            // FirstNameTitle
+            // 
+            this.FirstNameTitle.AutoSize = true;
+            this.FirstNameTitle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.FirstNameTitle.Location = new System.Drawing.Point(65, 94);
+            this.FirstNameTitle.Name = "FirstNameTitle";
+            this.FirstNameTitle.Size = new System.Drawing.Size(75, 16);
+            this.FirstNameTitle.TabIndex = 6;
+            this.FirstNameTitle.Text = "First Name";
             // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 450);
+            this.Controls.Add(this.FirstNameTitle);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.PUPTitle);
             this.Controls.Add(this.Title);
             this.Name = "ContactTracingForm";
@@ -72,6 +120,11 @@ namespace Contact_Tracer
 
         private System.Windows.Forms.Label Title;
         private System.Windows.Forms.Label PUPTitle;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label FirstNameTitle;
     }
 }
 
