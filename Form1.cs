@@ -55,6 +55,13 @@ namespace Contact_Tracer
             CT.WriteLine(AddressLAbel + ":" + AddressTB);
             CT.WriteLine(CellphoneTitle + ":" + CellNoTB);
             CT.WriteLine(TelephoneTitle + ":" + TelNoTB);
+
+            MessageBox.Show("Would you like to view the gathered data?", "ATTENTION!", MessageBoxButtons.YesNo);
+
+            if(DialogResult == DialogResult.No);
+            {
+                Application.Exit();
+            }
         }   
     }
 }
