@@ -26,5 +26,25 @@ namespace Contact_Tracer
         {
 
         }
+
+        private void TelephoneTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TelNoTB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ContactTracingForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
